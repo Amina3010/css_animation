@@ -1,0 +1,30 @@
+div.one {
+  
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 1s ease-in;
+    
+}
+
+div.two {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: all 3s ease-in;
+  
+}
+
+div#main:hover .one  {
+    width: 300px;
+    transition: all 1s ease-in;
+    transition-duration: 1s;
+  
+}
+
+div#main:hover .two  {
+    width: 300px;
+    transition: all 1s ease-in;
+    transition-duration: 2s;
+    
+}
